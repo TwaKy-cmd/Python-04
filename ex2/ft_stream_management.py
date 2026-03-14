@@ -13,7 +13,7 @@ def stream_management() -> None:
           f" from {id_archiv}: {status_archiv}", file=sys.stdout)
 
     print("[ALERT] System diagnostic: "
-          "Communication channels verified", file=sys.stdout)
+          "Communication channels verified", file=sys.stderr)
     print("[STANDARD] Data transmission complete\n")
 
     print("Three-channel communication test successful.")
